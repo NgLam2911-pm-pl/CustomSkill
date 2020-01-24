@@ -1,0 +1,23 @@
+name: CustomSkill
+main: LamPocketVN\CustomSkill\CustomSkill
+version: 0.0.1.lpk
+api: [3.11.0]
+author: LamPocketVN
+commands:
+    skill:
+        description: Skill commands
+permissions:
+    skill.eternity:
+        default: op
+        description: allow use eternity skill
+    skill.ironminer:
+        default: op
+        description: allow use Iron Miner skill
+    skill.goldminer:
+        default: op
+        description: allow use Gold Miner skill
+    skill.diamondminer:
+        default: op
+        description: allow use Diamond Miner skill
+ 
+
